@@ -1,0 +1,69 @@
+.Main {
+  margin: 5rem 0;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 4rem;
+}
+.counter {
+  background-color: rgb(222, 222, 222);
+  /* border: 2px solid rgb(222, 222, 222); */
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter.odd {
+  background-color: rgb(147, 212, 224);
+}
+
+.counter.even {
+  background-color: rgb(207, 147, 226);
+}
+
+.counter h1 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.buttons button {
+  background-color: rgb(222, 222, 222);
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  width: 10rem;
+}
+
+.buttons button:first-child {
+  background-color: rgb(154, 229, 189);
+}
+
+.buttons button:nth-child(2) {
+  background-color: rgb(147, 212, 224);
+}
+
+.buttons button:nth-child(3) {
+  background-color: rgb(165, 165, 234);
+}
+
+.buttons button:nth-child(4) {
+  background-color: rgb(207, 147, 226);
+}
+
+.buttons button:nth-child(5) {
+  background-color: lightsalmon;
+}

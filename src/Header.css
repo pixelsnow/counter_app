@@ -1,0 +1,9 @@
+.Header {
+  padding: 2rem 3rem;
+  background-color: rgb(222, 222, 222);
+}
+
+.Header h2 {
+  font-weight: 300;
+  font-size: 1.2rem;
+}

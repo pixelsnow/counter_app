@@ -1,5 +1,12 @@
-const Header = () => {
-  return <h1>Header will be here</h1>;
+import "./Header.css";
+
+const Header = (props) => {
+  return (
+    <header className="Header">
+      <h1>Header</h1>
+      <h2>{props.name}</h2>
+    </header>
+  );
 };
 
 export default Header;
