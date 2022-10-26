@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Button from "./Button";
 import "./Main.css";
 
 class Main extends Component {
@@ -40,11 +40,11 @@ class Main extends Component {
           </div>
         </div>
         <div className="buttons">
-          <button onClick={this.addFiveHandler}>Add five</button>
-          <button onClick={this.addOneHandler}>Add one</button>
-          <button onClick={this.addResetHandler}>Reset</button>
-          <button onClick={this.addMinusOneHandler}>Remove one</button>
-          <button onClick={this.addMinusFiveHandler}>Remove five</button>
+          <Button click={this.addFiveHandler}>Add five</Button>
+          <Button click={this.addOneHandler}>Add one</Button>
+          <Button click={this.addResetHandler}>Reset</Button>
+          <Button click={this.addMinusOneHandler}>Remove one</Button>
+          <Button click={this.addMinusFiveHandler}>Remove five</Button>
         </div>
       </main>
     );

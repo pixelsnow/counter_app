@@ -36,7 +36,7 @@
   justify-content: center;
   gap: 0.8rem;
 }
-
+/* 
 .buttons button {
   background-color: rgb(222, 222, 222);
   border: none;
@@ -67,3 +67,4 @@
 .buttons button:nth-child(5) {
   background-color: lightsalmon;
 }
+ */
