@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "./Button";
+import Button from "./UI/Button";
 import "./Main.css";
 
 class Main extends Component {
