@@ -4,7 +4,7 @@ import "./Main.css";
 
 class Main extends Component {
   state = {
-    counter: 10,
+    counter: 0,
   };
 
   addFiveHandler = () => {
@@ -16,7 +16,7 @@ class Main extends Component {
   };
 
   addResetHandler = () => {
-    this.setState({ counter: 10 });
+    this.setState({ counter: 0 });
   };
 
   addMinusOneHandler = () => {
@@ -29,12 +29,14 @@ class Main extends Component {
 
   render() {
     let counterClassName = "counter even";
-    if (this.state.counter % 2) counterClassName = "counter odd";
+    if (!this.state.counter) counterClassName = "counter";
+    else if (this.state.counter % 2) counterClassName = "counter odd";
+
     return (
       <main className="Main">
         <div className="counter-container">
           <div className={counterClassName}>
-            <h1 className="count">{this.state.counter}</h1>
+            <h1>{this.state.counter}</h1>
           </div>
         </div>
         <div className="buttons">
