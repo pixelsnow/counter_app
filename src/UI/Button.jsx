@@ -7,7 +7,7 @@ const Button = (props) => {
       type={props.type || "button"}
       onClick={props.click}
     >
-      {props.children}
+      {props.children} {/* needed to use the text inside */}
     </button>
   );
 };
